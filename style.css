@@ -1,0 +1,110 @@
+img {
+    width: 400px;
+    margin: 100px calc(50% - 200px) 5px;
+}
+
+.search-box {
+    width: 100%;
+    background-color: #EEEEEE;
+    text-align: center;
+}
+
+.search-bar {
+    width: 300px;
+    display: block;
+    margin-left: calc(50% - 150px);
+}
+
+.content-box {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    position: relative;
+    margin-top: 2px;
+}
+
+.content-1 {
+    width: 41%;
+    height: inherit;
+    background-color: #7EE5DA;
+    position: absolute;
+    left: 0;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.content-2 {
+    width: 15%;
+    height: inherit;
+    background-color: #71CCC2;
+    position: absolute;
+    margin-left: calc(41% + 2px);
+    padding-top: 5px;
+}
+
+.content-3 {
+    width: calc(44% - 4px);
+    height: inherit;
+    background-color: #63B3AA;
+    position: absolute;
+    right: 0;
+    padding-top: 5px;
+}
+
+#a1, #a2, #a3, #a4, #a5, #a6, #a7 {
+    display: block;
+}
+
+p {
+    margin: 0;
+}
+
+#mail-bar {
+    width: 240px;
+    display: block;
+    position: relative;
+    left: calc(50% - 120px);
+}
+
+footer {
+    text-align: center;
+    margin: 40px auto;
+}
+
+@media (max-width: 700px) {
+
+    .content-1 {
+        width: 31%;
+        height: inherit;
+        background-color: #7EE5DA;
+        position: absolute;
+        left: 0;
+        padding-top: 5px;
+        font-size: 16px;
+    }
+    
+    .content-2 {
+        width: 25%;
+        height: inherit;
+        background-color: #71CCC2;
+        position: absolute;
+        margin-left: calc(31% + 2px);
+        padding-top: 5px;
+    }
+    
+    .content-3 {
+        width: calc(44% - 4px);
+        height: inherit;
+        background-color: #63B3AA;
+        position: absolute;
+        right: 0;
+        padding-top: 5px;
+    }
+
+    #mail-bar {
+        width: 120px;
+        display: block;
+        position: relative;
+        left: calc(50% - 60px);
+    }
+}
